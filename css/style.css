@@ -73,13 +73,13 @@ h1, h2, h3, h4, h5, h6, li, a {
     width: 220px;
 }
 
-.recruitments__list__bookmark{
+.recruitments__list__bookmark {
     position: absolute;
     top: 0;
     right: calc(100% - 220px);
 }
 
-.recruitments__list__bookmark img{
+.recruitments__list__bookmark img {
     padding: 10px 15px;
 }
 
@@ -140,4 +140,27 @@ h1, h2, h3, h4, h5, h6, li, a {
     .recruitments_bg::after {
         left: calc(-150px - (100vw - 1280px) / 2);
     }
+}
+
+/*pagenation*/
+.pagenation{
+    text-align: center;
+}
+
+.pagenation a {
+    margin-right: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.pagenation_selecting{
+    border-radius: 20px;
+    color: #fff;
+    background-color: #7A7A7A;
 }

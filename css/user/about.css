@@ -204,7 +204,41 @@ main {
     letter-spacing: 0.05em;
 }
 
-.wide-hr_overview{
+.wide-hr_overview {
     margin: 0 0 20px 0;
     padding: 0;
+}
+
+/*------content(求人一覧)------*/
+
+.recruitments-title_recruitments-list {
+    margin-top: 23px;
+    margin-bottom: 11px;
+}
+
+.recruitments-list-select {
+    margin-top: 50px;
+    padding-top: 23px;
+    padding-bottom: 11px;
+    position: relative;
+    z-index: 5;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.recruitments-list-select img{
+    position: absolute;
+    top: 36px;
+    left: 0;
+}
+
+.recruitments-list-select select{
+    padding-left: 22px;
+}
+
+.pagenation{
+    margin-top: 60px;
+    padding-bottom: 130px;
 }
