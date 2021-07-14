@@ -1,0 +1,17 @@
+/*変数*/
+:root {
+	--f1: 2.44em; /* 39.04px */
+	--f2: 1.95em; /* 31.2px */
+	--f3: 1.56em; /* 24.96px */
+	--f4: 1.25em; /* 20px */
+	--f5: 1em;    /* 16px */
+	--f6: 0.8em;  /* 12.8px */
+
+    --textcolor: #384352;
+    --accentcolor: #41A9A5;
+
+	--myfont: Yu Gothic;
+
+	--myw: 1200px; /* 標準幅 */
+    --content-padding-side: 16px;
+}
