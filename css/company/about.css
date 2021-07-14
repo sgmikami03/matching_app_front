@@ -1,0 +1,183 @@
+/*------全体------*/
+
+main {
+    margin-left: 150px;
+}
+
+/*------about(top)------*/
+
+.company-about-top-head {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+.company-about-top-head img {
+    padding-top: 20px;
+    padding-left: 31px;
+}
+
+.company-about-top_main-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.company-about-top-text {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.company-about-top-texts {
+    width: calc(100% - 140px);
+    margin-top: 46px;
+    padding-left: 16px;
+}
+
+.company-about-top-texts_title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+}
+
+.company-about-top-texts_url, .company-about-top-texts_address {
+    margin-top: -9px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+}
+
+.company-about-top-texts_url {
+    margin-right: 30px;
+}
+
+.company-about-top-texts_address {
+    padding-left: 25px;
+    position: relative;
+}
+
+.company-about-top-texts_address img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.company-about-nav {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.company-about-nav__list {
+    margin-right: 30px;
+    /*仮*/
+    padding-bottom: 10px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.company-about-nav__list_active {
+    position: relative;
+}
+
+.company-about-nav__list_active a {
+    color: var(--accentcolor);
+}
+
+.company-about-nav__list_active::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 110px;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--accentcolor);
+}
+
+/*------contents(aboutus)------*/
+
+.company-about-contents {
+    margin-top: 60px;
+    margin-bottom: 440px;
+}
+
+.company-about-contents .company-about-contents-texts:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.company-about-contents-texts__title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    color: var(--accentcolor);
+}
+
+.company-about-contents-texts__title span {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #CFC6B9;
+}
+
+.company-about-contents-texts__text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+}
+
+.company-about-contents-texts__text_service {
+    margin-bottom: 60px;
+}
+
+.company-about-contents-texts__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.company-about-contents-texts__service {
+    width: calc(50% - 40px);
+    margin-bottom: 40px;
+}
+
+.company-about-contents-texts__service h4 {
+    margin-bottom: 17px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.company-about-contents-texts__service img {
+    display: block;
+    margin: 0 auto 17px auto;
+    height: 75px;
+}
+
+.company-about-contents-texts__service p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.company-about-contents-texts__url{
+    display: inline;
+    margin-left: 32px;
+}
+
